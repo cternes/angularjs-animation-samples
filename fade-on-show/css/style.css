@@ -1,0 +1,9 @@
+.slide-container {
+    -webkit-transition: all linear 0.3s;
+  	transition: all linear 0.3s;
+  	opacity: 1;
+}
+
+.slide-container.ng-hide {
+  	opacity: 0;
+}

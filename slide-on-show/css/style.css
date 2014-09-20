@@ -1,0 +1,10 @@
+.slide-container {
+    position: relative;
+    -webkit-transition: top linear 0.3s;
+  	transition: top linear 0.3s;
+  	top: 0; /* the top attribute is important for the animation. Without it, it doesn't work. This defines the target state on show and the source state on hide. */
+}
+
+.slide-container.ng-hide {
+  	top: -50px; /* This defines source state on show and the target state on hide. */
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="sampleApp">
+<head>
+	<title>TODO</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.1/angular.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.1/angular-animate.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div ng-controller="SampleController">
+		<div class="slide-container" ng-show="visible">
+        <h1>Come and get it!</h1>
+    </div>
+    
+    <div>
+        <button ng-click="visible=false">I don't want it</button>
+        <button ng-click="visible=true">I want it</button>
+    </div>
+</body>
+</html>
